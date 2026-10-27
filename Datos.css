@@ -1,0 +1,60 @@
+/* Estilo para los títulos principales */
+h1 {
+    color: rgb(206, 24, 24);
+    font-size: 80px; 
+}
+
+/* Color de fondo general de la página */
+body {
+    background-color: rgb(24, 100, 206);
+}
+
+/* Estilo tipográfico para los párrafos */
+p {
+    font-family: Arial;
+    font-size: 24px; 
+}      
+
+/* Bordes para contenedores, tablas y celdas */
+div, table, td, th {
+    border: 2px solid rgb(154, 23, 23);
+}
+    
+/* Estilos base para los botones interactivos */
+input[type="submit"], input[type="reset"], button {
+    background-color: rgb(24, 73, 206);
+    color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a mano */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra inicial con desplazamiento y desenfoque */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+}
+
+/* Animación de elevación y cambio de sombra al pasar el mouse por encima */
+input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+    transform: translateY(-3px); /* Eleva el botón hacia arriba */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Incrementa la intensidad de la sombra */
+}
+
+/* Estilo de tarjeta (Card) para secciones destacadas */
+.card {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Estilos base para los botones */
+input[type="submit"], input[type="reset"], button {
+    background-color: rgb(24, 73, 206);
+    color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
